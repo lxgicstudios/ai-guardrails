@@ -1,0 +1,65 @@
+{
+  "name": "ai-guardrails",
+  "version": "1.0.0",
+  "description": "Input/output validation and safety for AI applications. Content filtering, PII detection, prompt injection defense, output validation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ai-guardrails": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "guardrails",
+    "safety",
+    "validation",
+    "content-filter",
+    "pii-detection",
+    "prompt-injection",
+    "moderation",
+    "security",
+    "input-validation",
+    "output-validation",
+    "cli",
+    "npx",
+    "developer-tools",
+    "nodejs",
+    "typescript",
+    "zero-config",
+    "agentic",
+    "ai-agent",
+    "responsible-ai",
+    "trust-safety"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/ai-guardrails"
+  },
+  "homepage": "https://github.com/lxgicstudios/ai-guardrails#readme",
+  "bugs": {
+    "url": "https://github.com/lxgicstudios/ai-guardrails/issues"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "chalk": "^4.1.2",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
