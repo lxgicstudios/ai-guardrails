@@ -105,11 +105,15 @@ const validation = validateOutput(llmOutput, schema);
 
 ## Part of the LXGIC Dev Toolkit
 
-One of 110+ free developer tools from LXGIC Studios.
+One of 100+ free developer tools from LXGIC Studios.
 
-- GitHub: https://github.com/lxgicstudios
-- Twitter: https://x.com/lxgicstudios
-- Website: https://lxgicstudios.com
+---
+
+**Built by [LXGIC Studios](https://lxgicstudios.com)**
+
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
+
+💡 Want more free tools like this? We have 100+ on our GitHub: [github.com/lxgicstudios](https://github.com/lxgicstudios)
 
 ## License
 
